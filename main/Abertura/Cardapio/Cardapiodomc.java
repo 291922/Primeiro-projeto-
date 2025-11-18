@@ -1,6 +1,5 @@
-  package main.Cardapios;
+  package main.Abertura.Cardapio;
 
-  import main.Pedido;
 
   public class Cardapiodomc{
       public static void mostrarCardapio() {
@@ -23,7 +22,7 @@
                 "\n" + //
                 "7-Duplo Burger Bacon\n" + //
                 "\n");
-              Pedido.mostrarPedido(null);
-
+              //Pedido.mostrarPedido();
+            
       }
   }

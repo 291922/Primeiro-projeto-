@@ -1,8 +1,6 @@
-    package main.Cardapios;
-    import main.Pedido;
-    import main.Restaurantes;
+    package main.Abertura.Cardapio;
 
-    public class Cardapiobk{
+public class Cardapiobk{
 
         public static void mostrarCardapioBK() {
             System.out.println("teste");
@@ -15,8 +13,8 @@
                             "3-Bacon Catupiry\n" + //
                             "4-Whopper Furioso\n");
             
-            Pedido.mostrarPedido(null);
-            
+            //Pedido.mostrarPedido();
+           
             
 
         }
